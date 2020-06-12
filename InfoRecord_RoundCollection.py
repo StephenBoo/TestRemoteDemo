@@ -47,7 +47,7 @@ def comfirmDigit():
         float(groundIllEntry.get())
         return(True)
     except:
-        tkinter.messagebox.showwarning("警告", "照度值只能为数字")
+        tkinter.messagebox.showwarning("警告", "照度值只能为数字!")
         return(False)
         
     
