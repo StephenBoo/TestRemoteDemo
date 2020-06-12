@@ -56,7 +56,7 @@ def reSet():
     
     '''重置信息, 注释的不重置'''
     
-    reSetComfirm = tkinter.messagebox.askokcancel("提示", "确认重置所有信息吗？")        
+    reSetComfirm = tkinter.messagebox.askokcancel("提示", "确认重置所有信息吗？！")        
     if reSetComfirm:
         #dataEntry.delete(0, "end")
         #carComb.delete(0, "end")
